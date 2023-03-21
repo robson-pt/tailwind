@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply
+  bg-purple-500
+  hover:bg-purple-700
+  rounded-md
+  py-2
+  px-8
+  text-slate-100
+  text-lg
+}
+
+.input {
+  @apply
+  rounded-md
+  p-2
+  outline-none
+  text-lg
+  mb-4
+}
+
+.wrapper {
+  @apply
+  container
+  box-border
+  flex
+  flex-col
+  w-96
+  mx-auto
+  p-5
+  bg-slate-600
+  rounded-md
+}
